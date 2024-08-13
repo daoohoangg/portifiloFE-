@@ -1,0 +1,28 @@
+nav{
+    background-color: #f2ede3;
+}
+.c-center {
+    text-align: center;
+}
+.font{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-emphasis: 10px;
+    font-style: italic;
+    /* margin-top: 40px; */
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 96, 4);
+}
+
+.bi-circle-fill{
+    color: rgb(255, 96, 4);
+}
+
+
+.item2 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
