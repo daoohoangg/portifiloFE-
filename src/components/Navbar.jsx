@@ -11,8 +11,8 @@ class Navbar extends Component{
     render(){
         return(
         <nav className="NavbarItems">
-            <div className ='row'>
-                <div class="item1" className = 'col-md-4'>
+            <div className ='row g-0'>
+                <div className = 'item1 col-md-4'>
                    <ul class ='font '>
                         <ul>
                             <a href=""><i class="bi bi-circle-fill"></i> Home Page
@@ -40,22 +40,33 @@ class Navbar extends Component{
                         </ul>
                     </ul>
                 </div>
-                <div class="item2" className = 'col-md-4'>
-                    <h5>Dylan Dao</h5>
+                <div className = 'item2 col-md-4'>
+                    <div className="name-child">
+                        <h5>DYLAN DAO</h5>
+                    </div>
                     <img src='f239a58af6fd14aeb0016fea9b9a609f.jpg' alt="No Img"></img>
-                    <h1>Font-End</h1>
+                    <div className="h-fe">
+                        <h1><strong>Front-End</strong></h1>    
+                    </div>
                     <br />
-                    <h2>Developer</h2>
+                    <div className="h-dev">
+                        <h2>Portfolio.</h2>    
+                    </div>
+                    
+                    
+                    
                 </div>
                 <div className = 'item3 col-md-4'>
-                    <div>
-                        <h4>Font-End Portfolio</h4>
-                        <h2>Dao Trung  Hoang 
+                    <div className="content-right">
+                        <h5>Font-End Portfolio</h5>
+                        <h2 className="font">Dao Trung  Hoang 
                             Intern Font-End 
                             Developer
                         </h2>
                         <p>“Nobody is bored when he is trying to make something that is beautiful, or to discover something that is true.” – William Ralph Inge</p>
-                        <div>Work With Me<i class="bi bi-arrow-up-right"></i></div>
+                        <a href=""> 
+                           <div className="box-link"><p>Work With Me</p><i class="bi bi-arrow-up-right"></i></div> 
+                        </a>
                     </div>
                 </div>
             </div>    
