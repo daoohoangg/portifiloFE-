@@ -69,7 +69,9 @@ class Navbar extends Component{
                         </a>
                     </div>
                 </div>
+                <div className="footer-header"></div>    
             </div>    
+            
         </nav>
         
         );
