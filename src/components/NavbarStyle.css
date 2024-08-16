@@ -146,3 +146,40 @@ nav{
     width: 100%;
     height: auto;
 }
+
+/* personal abilities */
+.PersonalAbilities{
+    padding: 4% 0 0 9%;
+    background-color: #4e7577;
+}
+.abilities-header h1{
+    color: rgb(255, 96, 4);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10vw;
+    font-weight: bold;
+    font-style: italic;
+}
+.orange-box{
+    color: aliceblue;
+    background-color: rgb(255, 96, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.orange-box p{
+    font-size: 2vw;
+    text-align: center;
+    font-weight: bold;
+}
+.abilities-describe{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.abilities-describe p{
+    text-align: justify;
+    color: #f2ede3;
+    font-weight: bold;
+    padding: 0 2vw 0 1vw;
+}
