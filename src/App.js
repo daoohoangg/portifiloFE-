@@ -4,6 +4,8 @@ import {Routes } from 'react-router-dom';
 import Navbar from './components/Navbar.jsx';
 import Introduction from './components/Introductions.jsx';
 import PersonalAbilities from './components/PersonalAbilities.jsx';
+import PersonalSkills from './components/PersonalSkills.jsx';
+import Education from './components/Education.jsx';
 
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
       <Navbar/>
       <Introduction/>
       <PersonalAbilities/>
+      <PersonalSkills />
+      <Education/>
     </div>
   );
 }

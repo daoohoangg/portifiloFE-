@@ -27,14 +27,14 @@ class PersonalAbilities extends Component{
                             <p>In my previous web, I identified and resolved a critical performance bottleneck in our web application, improving load times by 40%.</p>
                         </div>
                         <div className="orange-box col-md-3"><p>PROBLEM SOLVING</p></div>
-                        <div className="col-md-2"><img src="28f62e1d6a2bde1e6ac0ae86b7d008df.jpg" alt="hihiihiihii" /></div>
+                        <div className="col-md-3 abilities-img" ><img src="28f62e1d6a2bde1e6ac0ae86b7d008df.jpg" alt="hihiihiihii" /></div>
                     </div>
                     {/* row 3 */}
                     <div className="row3 row g-0">
-                        <div className="col-md-5 abilities-describe">
+                        <div className="col-md-3 abilities-describe">
                             <p>I am known for my creative approach to UI/UX design, consistently developing interfaces that are both aesthetically pleasing and highly functional.</p>
                         </div>
-                        <div className="orange-box col-md-2"><p> CREATIVITY AND INNOVATION</p></div>
+                        <div className="orange-box col-md-3"><p> CREATIVITY AND INNOVATION</p></div>
                         <div className = 'col-md-5'>
                             <div className="content-right">
                                 <div>
