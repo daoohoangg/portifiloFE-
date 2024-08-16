@@ -51,10 +51,7 @@ class Navbar extends Component{
                     <br />
                     <div className="h-dev">
                         <h2>Portfolio.</h2>    
-                    </div>
-                    
-                    
-                    
+                    </div>  
                 </div>
                 <div className = 'item3 col-md-4'>
                     <div className="content-right">

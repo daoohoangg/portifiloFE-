@@ -50,15 +50,15 @@ nav{
 .h-fe{
     position: absolute;
     margin-top: -110%;
-    width: 160%;
+    width: 170%;
     text-align: center;
     color: rgb(255, 96, 4);
-    margin-left: -30%;
+    margin-left: -35%;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: bolder;
+    font-weight: bold;
 }
 .h-fe h1{
-    font-size: 1100%;
+    font-size: 12vw;
     font-weight: bold;
 }
 .h-dev{
@@ -108,4 +108,41 @@ nav{
     /* display: flex; */
     z-index: 0;
     align-self: flex-end;
+}
+
+/* Introductions */
+.intro{
+    padding: 4% 0 0 9%;
+    background-color: #f4efe5;
+}
+.intro-header{
+    color: rgb(255, 96, 4);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 9vw;
+    font-weight: bold;
+    font-style: italic;
+}
+.more-links{
+    margin-top: 28px;
+    border: 3px rgb(255, 96, 4) solid;
+    border-radius:20px ;
+    padding: 10px 5vw 10px 5vw;
+}
+.fix-details{
+    width: 60%;
+    text-align: center;
+}
+.intro-describe p{
+    text-align: justify;
+    letter-spacing: 1px;
+}
+.intro-img{
+    margin-top: 30px;
+    width: 30vw;
+    height: auto;
+    border-left: 11px #c2b910 solid;
+}
+.intro-img img{
+    width: 100%;
+    height: auto;
 }
