@@ -1,3 +1,4 @@
+
 nav{
     background-color: #f2ede3;
     max-height: 100%;
@@ -201,4 +202,60 @@ nav{
 }
 .mb7{
     margin-bottom: 7vh;
+}
+.intro-edu{
+    background-color: #5f9092;
+    color: #f4efe5;
+    
+}
+.pdl10{
+    padding-left: 10vw;
+}
+.school img{
+    height: 90vh;
+    width: 100%;
+}
+.bar{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: space-between;
+    margin-top: 3vh;
+}
+.bar h4{
+    padding-right: 4vw;
+    padding-top: 0.3vh;
+}
+.bar h3{
+    font-size:1.7vw ;
+}
+.bar-space{
+    background-color:rgb(255, 96, 4) ;
+    width: 24vw;
+    height: 0.25vh;
+    margin: auto 0 auto 0;
+    padding: 0 10vw 0 0;
+}
+.edu-content{
+    margin-right: 3.8vw;
+}
+.edu-content p{
+    margin-top: 3.5vh;
+    text-align: justify;
+    line-height: 2;
+}
+.edu-content-li{
+    margin-top: 1vh;
+}
+.edu-content-li a{
+    color: #f4efe5;
+    line-height: 2.3;
+    font-size:1.2vw;
+    transition: transform 0.3s ease;
+}
+.edu-content-li a :hover {
+    transform: scale(1.06); /* Phóng to 1.2 lần khi hover */
+}
+.edu-content-li a:first-of-type{
+    text-decoration: none;
 }

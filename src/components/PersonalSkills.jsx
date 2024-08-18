@@ -7,7 +7,7 @@ class PersonalSkills extends Component{
     render(){
         return(
             <div className="PersonalSkills">
-                <div className="intro">
+                <div className="intro ">
                     <div className="row g-0">
                         <div className="col-md-7 personal"><h1 className="intro-header">Personal Skills</h1></div>
                         <div className = 'col-md-5'>
